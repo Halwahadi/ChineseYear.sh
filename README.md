@@ -6,3 +6,6 @@ In order, the 12 animals are:  Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse Goat
 
 Write a bash  code which will take input as a year from user e.g 2008 and output the name on Chinese year.
 So, in caase of 2008 the output would be "2008 was the year of the Rat.
+
+
+Please note that there are currently still errors..
