@@ -10,7 +10,7 @@ base=1948
 
 #subtract the year from the base and divide by 12
 
-newyear="expr ($year - $base) / 12"
-name=${years[($newyear) - 1]}
+newyear=($year - $base) % 12
+name=${years[newyear]}
 
-echo -n "$year was the year of the $name"
+echo "$year was the year of the $name"
